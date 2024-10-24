@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    font-size: 20px;
+}
+nav {
+    background-color: #333;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .home{
+    margin-right: 90%;
+  }
+  h2{
+    margin-top: 100px;
+  }
+  .placard_upload_form{
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #d1bb8a;
+   display: block;
+    padding: 7px;
+    margin-left: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .temp{
+    display: flex;
+    
+  }
+  .submit{
+    background-color: aqua;
+    border-radius: 2px;
+  }
+  .submit:hover{
+    background-color: blue;
+    color: white;
+  }

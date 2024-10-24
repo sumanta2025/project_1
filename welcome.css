@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+table ,th ,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+  }
+  table{
+    width: 100%;
+    text-align: center;
+  }
+  thead{
+    background-color: aqua;
+  }
+  nav {
+    background-color: #333;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .welname{
+    color: rgb(8, 8, 8);
+    font-size: 23px;
+    font-family: cursive;
+    margin-left: 5%;
+    margin-bottom: 7px;
+  }
+  .logout{
+      margin-left: 40%;
+  } 
+  .upload_placard{
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;  
+    margin-bottom: 10px;
+  }
+  .upload_placard a{
+    display: flex;
+    background-color: #0e0e0e;
+    text-decoration: none;
+    height: 35px;
+    align-items: center;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .myinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-size: 25px;
+    color: #0e39a6;
+  }
+  .info{
+    padding: 7px;
+    border: 3px solid rgb(0,0,0);
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+    padding: 10px;
+    font-family: cursive;
+  }
+  .info a{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #0e0e0e;
+    text-decoration: none;
+  }
+  .myimage{
+    width: 120px;
+    height: auto;
+    display: flex;
+    border-radius: 5px;
+  }
+  .info h5{
+    margin-top: 0;
+    text-align: center;
+    color: #0e0e0e;
+  }
+  #uploadplacard{
+    margin-left: 86%;
+  }
+  .bg3{
+    width: 100%;
+   height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  }

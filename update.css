@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,textarea{
+    margin: 5px;
+    
+}
+#mplayed{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .careerform{
+    background-color:rgb(155 112 112 / 59%);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 45px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .career{
+    display: flex;
+    justify-content: center;
+  }
+  .career h5{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(251, 253, 253);
+  }
+  #trun{
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  #twicket{
+    width: 70px;
+    height: 30px;
+    margin-left:10px ;
+  }
+  #avg{
+    width: 70px;
+    height: 30px;
+    margin-left:0 ;
+  }
+  #hs{
+    height: 30px;
+    margin-left:0 ;
+  }
+  #eco{
+    width: 70px;
+    height: 30px;
+    margin-left:0 ;
+  }
+  #category{
+    height: 30px;
+    margin-left:0 ;
+    margin-top: 10px;
+  }
+  .btn {
+    text-align: center;
+    padding-top: 6px;
+    ;
+    font-size: 15px;
+  }
+  .butt{
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .butt:hover{
+    background-color: rgb(100, 100, 247);
+  }
+  #pass2{
+    width:270px;
+    height: 25px;
+    font-size: 12px;
+  }
+  nav {
+    background-color: #333;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .logout{
+    margin-left: 70%;
+  }
+  
+  body{
+    background-image: url(projectimage14.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
